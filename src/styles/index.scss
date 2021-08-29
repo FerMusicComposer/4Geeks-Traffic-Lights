@@ -11,3 +11,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.traffic-box {
+    border-radius: 12%;
+    width: 7vw;
+    height: 29vh;
+}
+.traffic-box-pole {
+    width: 1.5vw;
+    height: 7.5vh;
+}
+.traffic-box, .traffic-box-pole {
+    background: rgb(59, 58, 58);
+    border: solid 1px rgb(59, 58, 58);
+}
+.red-light {
+    background: rgb(156, 46, 46);
+}
+.orange-light {
+    background: rgb(175, 107, 44);
+}
+.green-light {
+    background: rgb(106, 168, 47);
+}
+.red-light, .orange-light, .green-light {
+    width: 4vw;
+    height: 7vh;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.8vh;
+}
+.light-on {
+    border: 3px solid rgba(243, 241, 105, 0.726);
+    box-shadow: 0px 0px 0px 3px rgba(255, 253, 138, 0.466);
+    border-radius: 100%;
+}
